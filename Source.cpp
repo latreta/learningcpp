@@ -1,10 +1,19 @@
 #include <iostream>
+#include "ModuloDois.h"
 
-using namespace std;
+
+void moduloDois() {
+	system("color 01");
+	ImprimirFrase("Vou aprender a programar na Linguagem C++");
+	ImprimirFraseComQuebra("Vou aprender a programar na Linguagem C++");
+	ImprimirFrase("Vou\naprender\na\nprogramar\nna\nLinguagem\nC++");
+}
 
 int main()
 {
-	cout << "Hello World" << endl;
+	moduloDois();
 	system("PAUSE");
 	return 0;
 }
+
+
