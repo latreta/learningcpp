@@ -8,3 +8,5 @@ using namespace std;
 void ImprimirFrase(string frase);
 //Questao 2
 void ImprimirFraseComQuebra(string frase);
+
+void executaModuloDois();
