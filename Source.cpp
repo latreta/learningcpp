@@ -7,7 +7,6 @@
 #include "ModuloOnze.h"
 
 void exibirMenu(int *opcao) {
-	system("CLEAR");
 	cout << "\n2 - Modulo 2 - Basico" << endl;
 	cout << "4 - Modulo 4 - Variaveis" << endl;
 	cout << "5 - Modulo 5 - Input" << endl;
@@ -45,10 +44,11 @@ void gerenciaModulos(int opcao) {
 
 int main()
 {
-	int opcao = 5;
+	int opcao;
 	do {
 		exibirMenu(&opcao);
-		gerenciaModulos(opcao);		
+		gerenciaModulos(opcao);
+		system("PAUSE");
 	} while (opcao < 2 || opcao > 17);
 	return 0;
 }
