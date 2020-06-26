@@ -13,6 +13,5 @@ void executaModuloCinco() {
 	cin >> nota3;
 
 	media = (nota1 + nota2 + nota3) / 3;
-	printf("Media geral: %.2f", media);
-	system("PAUSE");
+	printf("Media geral: %.2f\n\n", media);
 }

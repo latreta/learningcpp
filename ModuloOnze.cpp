@@ -51,4 +51,5 @@ void executaModuloOnze() {
 	imprimeVetor(numeros, 10);
 	int * numeros2 = inverteVetor(numeros, 10);
 	imprimeVetor(numeros2, 10);
+	free(numeros2);
 }

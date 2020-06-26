@@ -7,8 +7,8 @@
 #include "ModuloOnze.h"
 
 void exibirMenu(int *opcao) {
-	// Imprimir menu
-	cout << "2 - Modulo 2 - Basico" << endl;
+	system("CLEAR");
+	cout << "\n2 - Modulo 2 - Basico" << endl;
 	cout << "4 - Modulo 4 - Variaveis" << endl;
 	cout << "5 - Modulo 5 - Input" << endl;
 	cout << "8 - Modulo 8 - Funcoes" << endl;
