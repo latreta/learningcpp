@@ -143,6 +143,7 @@
     <ClCompile Include="ModuloDois.cpp" />
     <ClCompile Include="ModuloNove.cpp" />
     <ClCompile Include="ModuloOito.cpp" />
+    <ClCompile Include="ModuloOnze.cpp" />
     <ClCompile Include="ModuloQuatro.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="ModuloDois.h" />
     <ClInclude Include="ModuloNove.h" />
     <ClInclude Include="ModuloOito.h" />
+    <ClInclude Include="ModuloOnze.h" />
     <ClInclude Include="ModuloQuatro.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,15 +4,16 @@
 #include "ModuloCinco.h"
 #include "ModuloOito.h"
 #include "ModuloNove.h"
+#include "ModuloOnze.h"
 
 void exibirMenu(int *opcao) {
 	// Imprimir menu
-	cout << "2 - Modulo 2" << endl;
-	cout << "4 - Modulo 4" << endl;
-	cout << "5 - Modulo 5" << endl;
-	cout << "6 - Modulo 6" << endl;
-	cout << "8 - Modulo 8" << endl;
+	cout << "2 - Modulo 2 - Basico" << endl;
+	cout << "4 - Modulo 4 - Variaveis" << endl;
+	cout << "5 - Modulo 5 - Input" << endl;
+	cout << "8 - Modulo 8 - Funcoes" << endl;
 	cout << "9 - Modulo 9 - Ponteiros" << endl;
+	cout << "11 - Modulo 11 - Vetores e Matrizes" << endl;
 	cout << "Digite sua opcao: ";
 	cin >> (*opcao);
 }
@@ -33,6 +34,9 @@ void gerenciaModulos(int opcao) {
 			break;
 		case 9:
 			executaModuloNove();
+			break;
+		case 11:
+			executaModuloOnze();
 			break;
 		default:
 			break;
