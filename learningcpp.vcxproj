@@ -138,25 +138,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Aluno.cpp" />
     <ClCompile Include="Matematica.cpp" />
     <ClCompile Include="ModuloCinco.cpp" />
     <ClCompile Include="ModuloDezesseis.cpp" />
+    <ClCompile Include="ModuloDezessete.cpp" />
     <ClCompile Include="ModuloDois.cpp" />
     <ClCompile Include="ModuloNove.cpp" />
     <ClCompile Include="ModuloOito.cpp" />
     <ClCompile Include="ModuloOnze.cpp" />
     <ClCompile Include="ModuloQuatro.cpp" />
+    <ClCompile Include="Pessoa.cpp" />
+    <ClCompile Include="Professor.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Aluno.h" />
     <ClInclude Include="Matematica.h" />
     <ClInclude Include="ModuloCinco.h" />
     <ClInclude Include="ModuloDezesseis.h" />
+    <ClInclude Include="ModuloDezessete.h" />
     <ClInclude Include="ModuloDois.h" />
     <ClInclude Include="ModuloNove.h" />
     <ClInclude Include="ModuloOito.h" />
     <ClInclude Include="ModuloOnze.h" />
     <ClInclude Include="ModuloQuatro.h" />
+    <ClInclude Include="Pessoa.h" />
+    <ClInclude Include="Professor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
