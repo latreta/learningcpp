@@ -138,14 +138,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Matematica.cpp" />
     <ClCompile Include="ModuloCinco.cpp" />
     <ClCompile Include="ModuloDois.cpp" />
+    <ClCompile Include="ModuloNove.cpp" />
+    <ClCompile Include="ModuloOito.cpp" />
     <ClCompile Include="ModuloQuatro.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Matematica.h" />
     <ClInclude Include="ModuloCinco.h" />
     <ClInclude Include="ModuloDois.h" />
+    <ClInclude Include="ModuloNove.h" />
+    <ClInclude Include="ModuloOito.h" />
     <ClInclude Include="ModuloQuatro.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

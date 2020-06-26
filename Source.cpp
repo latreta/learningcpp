@@ -2,6 +2,8 @@
 #include "ModuloDois.h"
 #include "ModuloQuatro.h"
 #include "ModuloCinco.h"
+#include "ModuloOito.h"
+#include "ModuloNove.h"
 
 void exibirMenu(int *opcao) {
 	// Imprimir menu
@@ -9,6 +11,8 @@ void exibirMenu(int *opcao) {
 	cout << "4 - Modulo 4" << endl;
 	cout << "5 - Modulo 5" << endl;
 	cout << "6 - Modulo 6" << endl;
+	cout << "8 - Modulo 8" << endl;
+	cout << "9 - Modulo 9 - Ponteiros" << endl;
 	cout << "Digite sua opcao: ";
 	cin >> (*opcao);
 }
@@ -23,6 +27,12 @@ void gerenciaModulos(int opcao) {
 			break;
 		case 5:
 			executaModuloCinco();
+			break;
+		case 8:
+			executaModuloOito();
+			break;
+		case 9:
+			executaModuloNove();
 			break;
 		default:
 			break;
